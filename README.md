@@ -45,16 +45,6 @@ aniverse/
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Node.js 18+
-- MongoDB (local or [MongoDB Atlas](https://cloud.mongodb.com))
-- npm or yarn
-
----
-
 ### 1. Clone & Install
 
 ```bash
@@ -173,7 +163,7 @@ npm start
 
 ## ☁️ Deployment
 
-### Option A — Vercel (Frontend) + Render (Backend)
+### Vercel (Frontend) + Render (Backend)
 
 **Frontend → Vercel:**
 1. Push `frontend/` to a GitHub repo
@@ -193,11 +183,6 @@ npm start
    - `JWT_SECRET` = a strong random string
    - `CLIENT_URL` = your Vercel frontend URL
    - `NODE_ENV` = `production`
-
-**MongoDB → Atlas:**
-1. Create a free cluster at [cloud.mongodb.com](https://cloud.mongodb.com)
-2. Get the connection string and use it as `MONGODB_URI`
-
 ---
 
 ## 🔑 Key Technical Decisions
